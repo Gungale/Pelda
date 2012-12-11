@@ -1,0 +1,104 @@
+from __future__ import print_function
+import time
+from colorama import init, Fore, Back, Style
+init()
+
+#http://en.wikiquote.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time
+#http://www.neoseeker.com/resourcelink.html?rlid=162138
+
+sPart1 = [
+    "Hey!",#0
+    "Look!",#1
+    "Listen!",#2
+    "*you awake*",#3
+    "Oh, you're awake",#4
+    "so, what was your name again?",#5
+    "(you mummble something )",#6
+    "Sorry, didn't quite get that.",#7
+    "What did you say?",#8
+    ">",#9 (INPUTs)
+    "Hello,",#9
+    ". Wake up. The Great Deku Tree wants to talk to you!",#10
+    ", get up!",#11
+    "Hey, c'mon! Can Hyrule's destiny really depend on such a lazy boy?!",#12
+    "(You sit up and yawn)",#13
+    "You finally woke up! I'm",#14
+    " Navi",#15
+    " the fairy!",#16
+    "The Great Deku Tree asked me to be your partner from now on. Nice to meet you!",#17
+    "The Great Deku Tree has summoned you! So let's get going, right now!",#18
+    ]
+
+sPart2 = [
+
+    ]
+    
+cOne = [
+  
+	]
+def slowprint(text):
+    for letter in text:
+        print(letter, end='')
+        time.sleep(0.05)
+
+def slow():
+	slowprint ("Python is a programming language that lets you work more quickly and integrate your systems more effectively. You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs.")
+
+def wakingUp():
+    global name
+    print (Fore.WHITE + Style.BRIGHT + sPart1[0])
+    time.sleep(1.0)
+    print (sPart1[1])
+    time.sleep(1.0)
+    print (sPart1[2])
+    time.sleep(1.0)
+    print (sPart1[3])
+    time.sleep(1.5)
+    print (sPart1[4])
+    time.sleep(1.0)
+    print (sPart1[5])
+    time.sleep(1.0)
+    print (sPart1[6])
+    time.sleep(1.0)
+    print (sPart1[7])
+    time.sleep(1.0)
+    print (sPart1[8] + Fore.MAGENTA)
+    time.sleep(1.0)
+    name = input(sPart1[9])#NAME
+    time.sleep(1.0)
+    print (Fore.WHITE + Style.BRIGHT + sPart1[10], Fore.RED + name + Fore.WHITE + sPart1[11], Fore.RED + name + Fore.WHITE + sPart1[12])
+    time.sleep(2.0)
+    print (sPart1[13])
+    time.sleep(2.0)
+    print (sPart1[14])
+    time.sleep(2.0)  
+    print (sPart1[15] + Fore.YELLOW + sPart1[16] + Fore.WHITE + sPart1[17])
+    time.sleep(2.0) 
+    print (sPart1[18])
+    time.sleep(2.0) 
+    print (sPart1[19])
+    input()
+
+def info():
+    global ver
+    ver = (0.2)
+    ###Change log
+    ##06/12/12
+    #project started
+    #story started
+    #removed tri() 
+    ##06/12/12
+    #added text colour
+    print ("Version", ver)
+    time.sleep(1.0)
+    print ("made by Orion Kotekiiiiiiii")
+    time.sleep(1.0)
+    os.system('cls')
+    
+def main():
+    wakingUp()
+    #slow()
+
+if __name__=='__main__':
+    main()
+    
