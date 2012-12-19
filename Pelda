@@ -13,10 +13,10 @@ sPart1 = [
     "Hey!",#0
     "Look!",#01
     "Listen!",#02
-    "*you awaken*",#03
+    "[the boy awakes]",#03
     "Oh, you're awake",#04
     "so, what was your name again?",#05
-    "*you mummble something*",#06
+    "[the boy mummbles something]",#06
     "Sorry, didn't quite get that.",#07
     "What did you say?",#08
     ">",#09 (INPUTs)
@@ -24,12 +24,20 @@ sPart1 = [
     ". Wake up. The Great Deku Tree wants to talk to you!",#11
     ", get up!",#12
     "Hey, c'mon! Can Hyrule's destiny really depend on such a lazy boy?!",#13
-    "(You sit up and yawn)",#14
-    "You finally woke up! I'm",#15
-    " Navi",#16
-    " the fairy!",#17
-    "The Great Deku Tree asked me to be your partner from now on. Nice to meet you!",#18
-    "The Great Deku Tree has summoned you! So let's get going, right now!",#19
+    "[",#14
+    " sits up and yawns]",#15
+    "You finally woke up! I'm",#16
+    " Navi",#17
+    " the fairy!",#18
+    "The Great Deku Tree asked me to be your partner from now on. Nice to meet you!",#19
+    "The Great Deku Tree has summoned you! So let's get going, right now!",#20
+    ]
+
+classChoice = [
+    "[",#00
+    " sits up and yawns]",#01
+    "[",#02
+    " notices a elf bow, night staff and a steel sword on the floor*",#04
     ]
 
 sPart2 = [
@@ -38,124 +46,13 @@ sPart2 = [
     "*you open the door and climb down the ladder*",#02
     "*the summer sun beam onto your skin*",#03
     "*you notice that the village is quiet*",#04
+    "*as you reach the ...*",#05
     ]
-    
-def tri():
-    print (Fore.GREEN + Style.BRIGHT + "                          ++¥¥")
-    time.sleep(0.1)
-    print ("                         ++++¥¥")
-    time.sleep(0.1)
-    print ("                        ++++++¥¥")
-    time.sleep(0.1)
-    print ("                       ++++++++¥¥")
-    time.sleep(0.1)
-    print ("                      ++++++++++¥¥")
-    time.sleep(0.1)
-    print ("                     ++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("                    ++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("                   ++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("                  ++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("                 ++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("                ++++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("               ++++++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("              ++++++++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("             ++++++++++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("            ++¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥++¥¥")
-    time.sleep(0.1)
-    print ("           ++++¥¥                      ++++¥¥")
-    time.sleep(0.1)
-    print ("          +++++#¥¥                    ++++++¥¥")
-    time.sleep(0.1)
-    print ("         ++++++++¥¥                  ++++++++¥¥")
-    time.sleep(0.1)
-    print ("        ++++++++++¥¥                ++++++++++¥¥")
-    time.sleep(0.1)
-    print ("       ++++++++++++¥¥              ++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("      ++++++++++++++¥¥            ++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("     ++++++++++++++++¥¥          ++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("    ++++++++++++++++++¥¥        ++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("   ++++++++++++++++++++¥¥      ++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("  ++++++++++++++++++++++¥¥    ++++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print (" ++++++++++++++++++++++++¥¥  ++++++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print ("++++++++++++++++++++++++++++++++++++++++++++++++++++++¥¥")
-    time.sleep(0.1)
-    print (" ¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥")
-    #os.system('cls')
 
-def pi():
-    print (Fore.RED + Style.BRIGHT + "     :||220$00$$211'        '112$$00$0221|: ")
-    time.sleep(0.1)
-    print ("  '00802$22112122$$802'   1080$22211122$2$800:")
-    time.sleep(0.1)
-    print ("  |&0111111111111111108::881111111111111111$&1")
-    time.sleep(0.1)
-    print ("  :&8111111122111111110888111111112221111110&;")
-    time.sleep(0.1)
-    print ("   1&$111111112$$211112&&$11112$$2111111112&2")
-    time.sleep(0.1)
-    print ("    2&$1111111111200228&&&$2$0$111111111128$")
-    time.sleep(0.1)
-    print ("     18821111111111$&&&&&&&&811111111112081")
-    time.sleep(0.1)
-    print ("      '108$21111120&&&&&&&&&&021111122801:")
-    time.sleep(0.1)
-    print ("        '$&&8$$$8&&8$11||11$8&&80008&&$:")
-    time.sleep(0.1)
-    print ("       28$1;:'';0&1:' '''' ':181:::;12882'")
-    time.sleep(0.1)
-    print ("     :88;'  ';2&&8;' ''''''  :8&$|'   :2&8:")
-    time.sleep(0.1)
-    print ("     $&;  :1$&&&&&&021||||112088&&01:' '$&0")
-    time.sleep(0.1)
-    print ("     &8;|28&821;::;12&&&&&81;::::;108$1:1&&:")
-    time.sleep(0.1)
-    print ("   ;0&8&&&&1: '''''' ;0&&0: '''''' '|8&&88&0|")
-    time.sleep(0.1)
-    print (" '081;:$&&1 ''''''''' 1&&1 ''''''''' ;8&|';$&0:")
-    time.sleep(0.1)
-    print (" 88; ' 1&$''''''''''' 1&&2 '''''''''' 28:'''1&8:")
-    time.sleep(0.1)
-    print ("1&1 '' 2&0'''''''''' ;8&&&1'''''''''''0&:''''8&2")
-    time.sleep(0.1)
-    print ("1&1 '':8&&2: '''' ':1&&&&&&$|''    ':2&&1 '':8&2")
-    time.sleep(0.1)
-    print ("'88;  2&&&&821||11$0$1|;;;1208$1112$&&&&&; '2&&:")
-    time.sleep(0.1)
-    print ("   8&&1''':|$&&&&2 '''''''''' ;&&&0|: '' |&&8'")
-    time.sleep(0.1)
-    print ("   ;&8:'''''';$&&1 ''''''''''':8&1''''''':8&|")
-    time.sleep(0.1)
-    print ("    $&1 '''''''2&8; '''''''' '2&| '''''' |&0")
-    time.sleep(0.1)
-    print ("    '0&1''''''':8&&2;:'''':;10&$ '''''''|88:")
-    time.sleep(0.1)
-    print ("      2&$1:'''';8&&&&&00008&&&&$'  '':|$&2'")
-    time.sleep(0.1)
-    print ("       '1$00$$$8&&0211||||112$8&02220001:")
-    time.sleep(0.1)
-    print ("           |28&&&2'   '''''   2&&&8$|")
-    time.sleep(0.1)
-    print ("                 '1$00$$$$08$1'")
-    time.sleep(0.1)
-    print ("                     ':;;:'")
-    #os.system('cls')
-    
+fight = [
+    "*you unsheathe your ",
+    "*",
+    ]
 def slowprint(text):
     for letter in text:
         print(Fore.WHITE + Style.BRIGHT + letter, end='')
@@ -164,7 +61,7 @@ def slowprint(text):
 
 def slow():
 	slowprint ("Python is a programming language that lets you work more quickly and integrate your systems more effectively. You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs.")
-
+	
 def wakingUp():
     global name
     print(Fore.WHITE + Style.BRIGHT + sPart1[0])
@@ -193,13 +90,25 @@ def wakingUp():
     time.sleep(1.0)
     print (sPart1[13])
     time.sleep(2.0)
-    print (sPart1[14])
+    print (sPart1[14] + Fore.RED + name + Fore.WHITE + sPart1[15])
     time.sleep(2.0)  
-    print (sPart1[15] + Fore.YELLOW + sPart1[16] + Fore.WHITE + sPart1[17])
-    time.sleep(2.0) 
-    print (sPart1[18])
+    print (sPart1[16] + Fore.YELLOW + sPart1[17] + Fore.WHITE + sPart1[18])
     time.sleep(2.0) 
     print (sPart1[19])
+    time.sleep(2.0) 
+    print (sPart1[20])
+
+def nameFun():
+    global name
+    print (Fore.WHITE + Style.BRIGHT + sPart1[8]+ Fore.MAGENTA)
+    time.sleep(1.0)
+    name = input (sPart1[9])#NAME
+    time.sleep(1.0)
+    
+def wepChoice():
+    global name
+    print (Fore.WHITE + Style.BRIGHT + classChoice[0] + Fore.RED + name + Fore.WHITE + classChoice[1])
+    time.sleep(2.0)
 
 def dungPath1():
     print(Fore.WHITE + Style.BRIGHT + sPart2[0])
@@ -212,14 +121,17 @@ def dungPath1():
     time.sleep(1.0)
     print (sPart2[4])
     time.sleep(1.0)
+    
 
 
 def main():
-    pi()
-    tri()
+    #pi()
+    #tri()
     #keypress(event)
-    wakingUp()
-    dungPath1()
+    #wakingUp()
+    nameFun()
+    wepChoice()
+    #dungPath1()
     #slow()
 
 def keypress(event):
